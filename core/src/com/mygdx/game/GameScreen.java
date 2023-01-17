@@ -31,7 +31,7 @@ public class GameScreen implements Screen {
 
     public GameScreen(final Drop game) {
         this.game = game;
-        //comentari
+        //comentario
 
         // load the images for the droplet and the bucket, 64x64 pixels each
         dropImage = new Texture(Gdx.files.internal("basket-removebg-preview.png"));
